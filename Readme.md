@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Alexey Zhivaikin](https://up.htmlacademy.ru/htmlcss/33/user/861381).
-* Наставник: `Неизвестно`.
+- Студент: [Alexey Zhivaikin](https://up.htmlacademy.ru/htmlcss/33/user/861381).
+- Наставник: [Дмитрий Иовлев](https://up.htmlacademy.ru/htmlcss/33/user/200490).
 
 ---
 
