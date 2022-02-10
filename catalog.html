@@ -10,7 +10,7 @@
 
 <body>
   <header class="page-header">
-    <a class="company-logo" href="#">
+    <a class="company-logo" href="index.html">
       <img class="primary-logo" src="" alt="Логотип компании Device">
     </a>
     <div class="user-menu">
@@ -18,8 +18,11 @@
         <input class="search__input" type="search" placeholder="Текст поиска">
         <button class="search__button" type="submit">Найти</button>
       </form>
+      <ul class="user-menu__sign-in">
+        <a class="user-menu__link--icon user-menu__link" href="#">Коля Петухов</a>
+        <a class="user-menu__link" href="#">Выйти</a>
+      </ul>
       <ul class="user-menu__list">
-        <li class="user-menu__item"><a class="user-menu__link--icon user-menu__link" href="">Войти</a></li>
         <li class="user-menu__item"><a class="user-menu__link--icon user-menu__link" href="">Сравнить</a></li>
         <li class="user-menu__item"><a class="user-menu__link--icon user-menu__link" href="">Корзина</a></li>
       </ul>
@@ -45,7 +48,7 @@
     <div class="catalog__header">
       <h1><span class="catalog-title">Моноподы для селфи</span></h1>
       <ul class="breadcrumb">
-        <li><a href="#">Главная</a></li>
+        <li>Главная</li>
         <li><a href="#">Каталог товаров</a></li>
         <li><a href="#">Моноподы для селфи</a></li>
       </ul>
@@ -59,7 +62,7 @@
     </div>
     <section class="catalog">
       <h2 class="visually-hidden">Каталог товаров</h2>
-      <ol class="catalog-list">
+      <ul class="catalog-list">
         <li class="catalog-list__item">
           <a href="#" class="catalog-list__item">
             <img class="catalog-image" src="#" alt="Фото продукта">
@@ -88,16 +91,16 @@
             <span class="item-price">500 руб.</span>
           </a>
         </li>
-      </ol>
+      </ul>
       <!-- <button class="secondary-button">Загрузить еще</button> -->
       <div class="pagination">
         <a href="#" class="tertiarry-btn">Назад</a>
         <ul class="pagination__numbers">
-          <li class="pagination-numbers__page">1</li>
-          <li class="pagination-numbers__page">2</li>
-          <li class="pagination-numbers__page">3</li>
+          <li class="pagination-numbers__page"><a href="#">1</a></li>
+          <li class="pagination-numbers__page"><a href="#">2</a></li>
+          <li class="pagination-numbers__page"><a href="#">3</a></li>
           <li class="pagination-numbers__page">...</li>
-          <li class="pagination-numbers__page">15</li>
+          <li class="pagination-numbers__page"><a href="#">15</a></li>
         </ul>
         <a href="#" class="tertiarry-btn">Вперед</a>
 
