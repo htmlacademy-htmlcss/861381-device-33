@@ -10,15 +10,15 @@
 <body>
   <header class="page-header">
     <a class="company-logo" href="#">
-      <img class="primary-logo" src="" alt="Логотип компании Device">
+      <img class="primary-logo" src="#" alt="Логотип компании Device">
     </a>
     <div class="user-menu">
-      <form class="search" action="">
+      <form class="search" action="submit">
         <input class="search__input" type="search" placeholder="Текст поиска">
         <button class="search__button" type="submit">Найти</button>
       </form>
       <ul class="user-menu__sign-in">
-        <a class="user-menu__link--icon user-menu__link" href="">Войти</a>
+        <li><a class="user-menu__link--icon user-menu__link" href="">Войти</a></li>
       </ul>
       <ul class="user-menu__list">
         <li class="user-menu__item"><a class="user-menu__link--icon user-menu__link" href="">Сравнить</a></li>
@@ -53,14 +53,14 @@
               <button class="slider_arrows__previous-btn"></button>
               <button class="slider_arrows__next-btn"></button>
             </div>
-            <img src="" width="560" height="560" alt="Фото квадрокоптера">
+            <img src="#" width="560" height="560" alt="Фото квадрокоптера">
           </div>
           <div class="slider__promo-text">
             <h2>Порхает как бабочка, жалит как пчела!</h2>
             <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
               камеру.
             </p>
-            <button class="primary-button" type="button"><a class="button-text" href="#">Подробнее</a></button>
+            <a class="primary-button">Подробнее</a>
             <div class="slider-controlls">
               <button class="slider-controlls__button slider-controlls__button--active" type="button" aria-label="1"></button>
               <button class="slider-controlls__button" type="button" aria-label="2"></button>
@@ -85,13 +85,13 @@
               <button class="slider_arrows__previous-btn"></button>
               <button class="slider_arrows__next-btn"></button>
             </div>
-            <img src="" width="560" height="560" alt="Фото квадрокоптера">
+            <img src="#" width="560" height="560" alt="Фото квадрокоптера">
           </div>
           <div class="slider__promo-text">
             <h2>Худеем правильно!</h2>
             <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
             </p>
-            <button class="primary-button" type="button"><a class="button-text" href="#">Подробнее</a></button>
+            <a class="primary-button" href="#">Подробнее</a>
             <div class="slider-controlls">
               <button class="slider-controlls__button" type="button" aria-label="1"></button>
               <button class="slider-controlls__button slider-controlls__button--active" type="button" aria-label="2"></button>
@@ -145,21 +145,21 @@
     <section class="catalog">
       <ul class="catalog-list">
         <li><a href="#">
-            <img class="catalog-icon" src="" alt="Виртуальная реальность">
+            <img class="catalog-icon" src="#" alt="Виртуальная реальность">
             <h4>Виртуальная реальность</h4>
           </a></li>
         <li><a href="#">
-            <img class="catalog-icon" src="" alt="Моноподы для селфи">
+            <img class="catalog-icon" src="#" alt="Моноподы для селфи">
             <h4>Моноподы для селфи</h4>
           </a></li>
         <li><a href="#">
-            <img class="catalog-icon" src="" alt="Экшн-камеры">
+            <img class="catalog-icon" src="#" alt="Экшн-камеры">
             <h4>Экшн-камеры</h4>
           </a></li>
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="" alt="Фитнес-браслеты">
+                <img class="catalog-icon" src="#" alt="Фитнес-браслеты">
               </div>
               <h4>Фитнес-браслеты</h4>
             </div>
@@ -167,7 +167,7 @@
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="" alt="Умные часы">
+                <img class="catalog-icon" src="#" alt="Умные часы">
               </div>
               <h4>Умные часы</h4>
             </div>
@@ -175,7 +175,7 @@
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="" alt="Квадрокоптеры">
+                <img class="catalog-icon" src="#" alt="Квадрокоптеры">
               </div>
               <h4>Квадрокоптеры</h4>
             </div>
@@ -244,11 +244,11 @@
         <div class="black-devider"></div>
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
-        <h3>Интернет-магазин «Девайс»</h3>
         <address>
+          <p class="address-heading">Интернет-магазин «Девайс»</p>
           <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-          <div class="phone"><a href="tel:+78128121212">+7 (812) 812-12-12</a></div>
-          <h3>Время работы</h3>
+          <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <p class="address-heading">Время работы</p>
           <p>пн—пт: с 10:00 до 22:00сб—вс: с 10:00 до 19:00</p>
         </address>
         <a class="primary-button button-text" href="#">Напишите нам</a>
@@ -256,11 +256,11 @@
     </section>
     <section class="subscribe">
       <div class="subscribe__head">
-        <h2></h2>
-        <p></p>
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
       </div>
       <div class="subscribe__form">
-        <form class="subscribe" action="">
+        <form class="subscribe" action="submit">
           <input class="primary-input" type="email" placeholder="Ваш e-mail">
           <button class="secondary-button" type="submit">Подписаться</button>
         </form>
@@ -272,7 +272,7 @@
   </main>
   <footer class="footer">
     <div class="footer__head">
-      <img class="secondary-logo" src="" alt="Логотип компании Device">
+      <img class="secondary-logo" src="#" alt="Логотип компании Device">
     </div>
     <div class="footer__center">
       <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -286,9 +286,9 @@
     <div class="footer__bottom">
       <div class="yellow-devider"></div>
       <div class="socials">
-        <a href="https://www.facebook.com/htmlacademy" alt="facebook"></a>
-        <a href="https://www.instagram.com/htmlacademy" alt="instagram"></a>
-        <a href="https://twitter.com/htmlacademy_ru" alt="twitter"></a>
+        <a class="facebook-icon" href="https://www.facebook.com/htmlacademy"></a>
+        <a class="instagram-icon" href="https://www.instagram.com/htmlacademy"></a>
+        <a class="twotter-icon" href="https://twitter.com/htmlacademy_ru"></a>
       </div>
       <img src="https://htmlacademy.ru" alt="html academy">
     </div>
