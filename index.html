@@ -44,14 +44,18 @@
   <main class="main-index">
     <h1 class="visually-hidden">HTML Academy: Девайс</h1>
     <section class="slider">
+      <div class="slider_arrows">
+        <button class="slider_arrows__previous-btn"></button>
+        <button class="slider_arrows__next-btn"></button>
+      </div>
+      <div class="slider-controlls">
+        <button class="slider-controlls__button slider-controlls__button--active" type="button" aria-label="1"></button>
+        <button class="slider-controlls__button" type="button" aria-label="2"></button>
+        <button class="slider-controlls__button" type="button" aria-label="3"></button>
+      </div>
       <ol class="slider__list">
         <li class="slider__list-item slider__list-item--active">
-          <div class="white-devider"></div>
           <div class="img-wrapper">
-            <div class="slider_arrows">
-              <button class="slider_arrows__previous-btn"></button>
-              <button class="slider_arrows__next-btn"></button>
-            </div>
             <img src="#" width="560" height="560" alt="Фото квадрокоптера">
           </div>
           <div class="slider__promo-text">
@@ -59,12 +63,7 @@
             <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
               камеру.
             </p>
-            <a class="primary-button">Подробнее</a>
-            <div class="slider-controlls">
-              <button class="slider-controlls__button slider-controlls__button--active" type="button" aria-label="1"></button>
-              <button class="slider-controlls__button" type="button" aria-label="2"></button>
-              <button class="slider-controlls__button" type="button" aria-label="3"></button>
-            </div>
+            <a class="primary-button" href="#">Подробнее</a>
             <div class="slide-stats-list">
               <div class="stats-item">
                 <span class="stat-value">800 м</span>
@@ -78,7 +77,6 @@
           </div>
         </li>
         <li class="slider__list-item">
-          <div class="white-devider"></div>
           <div class="img-wrapper">
             <div class="slider_arrows">
               <button class="slider_arrows__previous-btn"></button>
@@ -105,7 +103,6 @@
           </div>
         </li>
         <li class="slider__list-item">
-          <div class="white-devider"></div>
           <div class="img-wrapper">
             <div class="slider_arrows">
               <button class="slider_arrows__previous-btn"></button>
@@ -158,7 +155,6 @@
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="#" alt="Фитнес-браслеты">
               </div>
               <h4>Фитнес-браслеты</h4>
             </div>
@@ -166,7 +162,6 @@
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="#" alt="Умные часы">
               </div>
               <h4>Умные часы</h4>
             </div>
@@ -174,7 +169,6 @@
         <li><a href="#">
             <div class="catalog-list__item">
               <div class="catalog-icon-bg">
-                <img class="catalog-icon" src="#" alt="Квадрокоптеры">
               </div>
               <h4>Квадрокоптеры</h4>
             </div>
@@ -184,7 +178,6 @@
     <section class="services">
       <h2 class="visually-hidden">Услуги</h2>
       <div class="services__list">
-        <div class="v-devider"></div>
         <ul>
           <li class="services-list__item">
             <button class="primary-button button-text" type="button">Доставка</button>
@@ -197,15 +190,15 @@
           </li>
         </ul>
       </div>
-      <ul>
-        <li class="services__content-list">
+      <ul class="services__content-list">
+        <li class="services__content-item">
           <div class="content-list__text">
             <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
               заработаем, поднимая его на ваш этаж.</p>
           </div>
         </li>
-        <li class="services__content-list">
+        <li class="services__content-item">
           <div class="content-list__text">
             <h3>Гарантия</h3>
             <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
@@ -213,7 +206,7 @@
               Товар, не дом, конечно же.</p>
           </div>
         </li>
-        <li class="services__content-list">
+        <li class="services__content-item">
           <div class="content-list__text">
             <h3>Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
@@ -222,13 +215,11 @@
         </li>
       </ul>
     </section>
-    <a class="delivery-btn">
-      <div class="delivery-btn__right-icon"></div>
+    <a class="delivery-btn delivery-btn__right-icon">
       <p class="button-text">Доставим редкий товар под заказ</p>
     </a>
     <section class="about">
       <div class="about-us">
-        <div class="black-devider"></div>
         <h2>О нас</h2>
         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
         <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
@@ -240,7 +231,6 @@
       </div>
       <a class="primary-button button-text" href="#">Подробнее о нас</a>
       <div class="contacts">
-        <div class="black-devider"></div>
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
         <address>
@@ -283,7 +273,6 @@
       <div class="phone"><a href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a></div>
     </div>
     <div class="footer__bottom">
-      <div class="yellow-devider"></div>
       <div class="socials">
         <a class="facebook-icon" href="https://www.facebook.com/htmlacademy"></a>
         <a class="instagram-icon" href="https://www.instagram.com/htmlacademy"></a>
