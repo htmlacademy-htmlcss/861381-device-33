@@ -2,8 +2,9 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8" />
-  <title>HTML Academy: Девайс</title>
+  <meta charset="UTF-8">
+  <title>Главная страница Device</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
@@ -16,8 +17,8 @@
     </a>
     <div class="user-menu">
       <form class="search" action="submit">
-        <input class="search__input" type="search" placeholder="Текст поиска">
-        <button class="search__button" type="submit">Найти</button>
+        <input class="search search__input" type="search" placeholder="Текст поиска">
+        <button class="search search__button" type="submit">Найти</button>
       </form>
       <ul class="user-menu__sign-in">
         <li><a class="user-menu__link--icon user-menu__link" href="">Войти</a></li>
@@ -30,12 +31,12 @@
     <nav class="main-navigation">
       <a class="main-navigation__item main-navigation__item--icon " href="catalog.html">Каталог товаров</a>
       <ul class="catalog-dropdown">
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Виртуальная реальность</li>
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Моноподы для селфи</li>
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Экшн-камеры</li>
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Фитнес-браслеты</li>
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Умные часы</li>
-        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href=""></a>Квадрокоптеры</li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Виртуальная реальность</a></li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Моноподы для селфи</a></li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Экшн-камеры</a></li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Фитнес-браслеты</a></li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Умные часы</a></li>
+        <li class="catalog-dropdown__item"><a class="catalog-dropdown__link" href="">Квадрокоптеры</a></li>
       </ul>
       <ul class="main-mavigation__services-list">
         <li class="main-navigation__item"><a href="#">Доставка</a></li>
@@ -127,49 +128,38 @@
       </ol>
     </section>
 
-    <!-- Catalog -->
+    <!-- Index catalog -->
 
-    <section class="catalog">
+    <section class="catalog-index">
       <ul class="catalog-list">
         <li>
-          <a href="#">
-            <h4>Виртуальная реальность</h4>
+          <a class="catalog-list__item" href="#">
+            <h3>Виртуальная реальность</h3>
           </a>
         </li>
         <li>
-          <a href="#">
-            <h4>Моноподы для селфи</h4>
+          <a class="catalog-list__item" href="#">
+            <h3>Моноподы для селфи</h3>
           </a>
         </li>
         <li>
-          <a href="#">
-            <h4>Экшн-камеры</h4>
+          <a class="catalog-list__item" href="#">
+            <h3>Экшн-камеры</h3>
           </a>
         </li>
         <li>
-          <a href="#">
-            <div class="catalog-list__item">
-              <div class="catalog-icon-bg">
-              </div>
-              <h4>Фитнес-браслеты</h4>
-            </div>
-          </a>
-        </li>
-        <li><a href="#">
-            <div class="catalog-list__item">
-              <div class="catalog-icon-bg">
-              </div>
-              <h4>Умные часы</h4>
-            </div>
+          <a class="catalog-list__item" href="#">
+            <h3>Фитнес-браслеты</h3>
           </a>
         </li>
         <li>
-          <a href="#">
-            <div class="catalog-list__item">
-              <div class="catalog-icon-bg">
-              </div>
-              <h4>Квадрокоптеры</h4>
-            </div>
+          <a class="catalog-list__item" href="#">
+            <h3>Умные часы</h3>
+          </a>
+        </li>
+        <li>
+          <a class="catalog-list__item" href="#">
+            <h3>Квадрокоптеры</h3>
           </a>
         </li>
       </ul>
@@ -182,27 +172,27 @@
       <div class="services__list">
         <ul>
           <li class="services-list__item">
-            <button class="primary-button button-text" type="button">Доставка</button>
+            <button class="primary-button" type="button">Доставка</button>
           </li>
           <li class="services-list__item">
-            <button class="primary-button button-text" type="button">Гарантия</button>
+            <button class="primary-button" type="button">Гарантия</button>
           </li>
           <li class="services-list__item">
-            <button class="primary-button button-text" type="button">Кредит</button>
+            <button class="primary-button" type="button">Кредит</button>
           </li>
         </ul>
       </div>
       <ul class="services__content-list">
         <li class="services__content-item">
           <div class="content-list__text">
-            <h3>Доставка</h3>
+            <h2>Доставка</h2>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
               заработаем, поднимая его на ваш этаж.</p>
           </div>
         </li>
         <li class="services__content-item">
           <div class="content-list__text">
-            <h3>Гарантия</h3>
+            <h2>Гарантия</h2>
             <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
               новый.
               Товар, не дом, конечно же.</p>
@@ -210,7 +200,7 @@
         </li>
         <li class="services__content-item">
           <div class="content-list__text">
-            <h3>Кредит</h3>
+            <h2>Кредит</h2>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
               кредита. Выгодные для банка, разумеется.</p>
           </div>
@@ -220,9 +210,11 @@
 
     <!-- Delivery btn -->
 
-    <a class="delivery-btn delivery-btn__right-icon">
-      <p class="button-text">Доставим редкий товар под заказ</p>
-    </a>
+    <div class="delivery-btn delivery-btn__right-icon">
+      <a href="#">
+        <p class="tertiarry-btn">Доставим редкий товар под заказ</p>
+      </a>
+    </div>
 
     <!-- About -->
 
@@ -237,7 +229,7 @@
           <li class="text-bold">ТоксБерри</li>
         </ul>
       </div>
-      <a class="primary-button button-text" href="#">Подробнее о нас</a>
+      <a class="primary-button" href="#">Подробнее о нас</a>
       <div class="contacts">
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
@@ -248,7 +240,7 @@
           <p class="address-heading">Время работы</p>
           <p>пн—пт: с 10:00 до 22:00сб—вс: с 10:00 до 19:00</p>
         </address>
-        <a class="primary-button button-text" href="#">Напишите нам</a>
+        <a class="primary-button" href="#">Напишите нам</a>
       </div>
     </section>
 

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог товаров Device</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
+
+  <!-- Header -->
+
   <header class="page-header">
     <a class="company-logo" href="index.html">
       <img class="primary-logo" src="images/logotype-black.svg" width="145" height="36" alt="Логотип компании Device">
@@ -44,6 +46,9 @@
       </ul>
     </nav>
   </header>
+
+  <!-- Catalog -->
+
   <main class="main-catalog">
     <div class="catalog__header">
       <h1><span class="catalog-title">Моноподы для селфи</span></h1>
@@ -53,59 +58,64 @@
         <li>Моноподы для селфи</li>
       </ul>
     </div>
-    <div class="catalog-filter">
-      <div class="filters-head">
-        <p class="batton-text">Фильтр:</p>
-        <!-- <form action="submit" class="catalog-filters">
-        </form> -->
-      </div>
-    </div>
     <section class="catalog">
       <h2 class="visually-hidden">Каталог товаров</h2>
-      <ul class="catalog-list">
-        <li class="catalog-list__item">
-          <a href="#">
-            <img src="images/product-1.jpg" alt="Фото «Любительская селфи-палка»">
-            <h3>Любительская селфи-палка</h3>
-            <p class="item-price">500 ₽</p>
-          </a>
-        </li>
-        <li class="catalog-list__item">
-          <a href="#">
-            <img src="images/product-2.jpg" alt="Фото «Профессиональная селфи-палка»">
-            <h3>Любительская селфи-палка</h3>
-            <p class="item-price">500 ₽</p>
-          </a>
-        </li>
-        <li class="catalog-list__item">
-          <a href="#">
-            <img src="images/product-3.jpg" alt="Фото «Непотопляемая селфи-палка»">
-            <h3>Люительская селфи-палка</h3>
-            <p class="item-price">500 ₽</p>
-          </a>
-        </li>
-        <li class="catalog-list__item">
-          <a href="#">
-            <img src="images/product-4.jpg" alt="Фото «Селфипалка Следуй за мной»">
-            <h3>Любительская селфи-палка</h3>
-            <p class="item-price">500 ₽</p>
-          </a>
-        </li>
-      </ul>
-      <!-- <button class="secondary-button">Загрузить еще</button> -->
-      <div class="pagination">
-        <a href="#" class="tertiarry-btn">Назад</a>
-        <ul class="pagination__numbers">
-          <li class="pagination-numbers__page"><a href="#">1</a></li>
-          <li class="pagination-numbers__page"><a href="#">2</a></li>
-          <li class="pagination-numbers__page"><a href="#">3</a></li>
-          <li class="pagination-numbers__page">...</li>
-          <li class="pagination-numbers__page"><a href="#">15</a></li>
+      <div class="catalog-filter">
+        <div class="filters-head">
+          <p class="batton-text">Фильтр:</p>
+          <!-- <form action="submit" class="catalog-filters">
+        </form> Закомментировано, потому что будем проходить в 7 блоке -->
+        </div>
+      </div>
+      <div class="catalog-page">
+        <ul class="catalog-list">
+          <li class="catalog-list__item">
+            <a href="#">
+              <img src="images/product-1.jpg" alt="Фото «Любительская селфи-палка»">
+              <h3>Любительская селфи-палка</h3>
+              <p class="item-price">500 ₽</p>
+            </a>
+          </li>
+          <li class="catalog-list__item">
+            <a href="#">
+              <img src="images/product-2.jpg" alt="Фото «Профессиональная селфи-палка»">
+              <h3>Любительская селфи-палка</h3>
+              <p class="item-price">500 ₽</p>
+            </a>
+          </li>
+          <li class="catalog-list__item">
+            <a href="#">
+              <img src="images/product-3.jpg" alt="Фото «Непотопляемая селфи-палка»">
+              <h3>Люительская селфи-палка</h3>
+              <p class="item-price">500 ₽</p>
+            </a>
+          </li>
+          <li class="catalog-list__item">
+            <a href="#">
+              <img src="images/product-4.jpg" alt="Фото «Селфипалка Следуй за мной»">
+              <h3>Любительская селфи-палка</h3>
+              <p class="item-price">500 ₽</p>
+            </a>
+          </li>
         </ul>
-        <a href="#" class="tertiarry-btn">Вперед</a>
+        <button class="secondary-button">Загрузить еще</button>
+        <div class="pagination">
+          <a href="#" class="tertiarry-btn">Назад</a>
+          <ul class="pagination__numbers">
+            <li class="pagination-numbers__page"><a href="#">1</a></li>
+            <li class="pagination-numbers__page"><a href="#">2</a></li>
+            <li class="pagination-numbers__page"><a href="#">3</a></li>
+            <li class="pagination-numbers__page">...</li>
+            <li class="pagination-numbers__page"><a href="#">15</a></li>
+          </ul>
+          <a href="#" class="tertiarry-btn">Вперед</a>
+        </div>
       </div>
     </section>
   </main>
+
+  <!-- Footer -->
+
   <footer class="footer">
     <div class="footer__head">
       <img class="secondary-logo" src="images/logotype-yellow.svg" width="145" height="36" alt="Логотип компании Device">
