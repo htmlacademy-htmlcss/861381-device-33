@@ -1,0 +1,242 @@
+/* General */
+
+:root {
+  --font-rubik: "Rubik", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --color-black: #000000;
+  --color-dark-gray: #444444;
+  --color-gray: #dcdcdc;
+  --color-light-gray: #ebebeb;
+  --color-light-light-gray: #f0f0f0;
+  --color-white: #ffffff;
+  --color-yellow: #ffe17f;
+  --color-yellow-hover: #ffc700;
+  --color-error: #ff3d3d;
+  --color-warning: #fd912e;
+  --color-success: #08af00;
+  --color-focus: #af4fff;
+}
+
+body {
+  margin: 0;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+/* Typography */
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+h1 {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.address-heading {
+  font-family: var(--font-rubik);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--color-dark-gray);
+}
+
+h3 {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.text-bold {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Sections */
+
+.page-header {
+  background-color: var(--color-yellow);
+}
+
+.services {
+  background-color: var(--color-light-gray);
+}
+
+.subscribe {
+  background-color: var(--color-light-gray);
+}
+
+.footer {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+}
+
+.catalog {
+  background-color: var(--color-light-gray);
+}
+
+/* Blocks */
+
+.delivery-btn {
+  background-color: var(--color-light-gray);
+}
+
+/* Elements & Modifcations */
+
+.search {
+  font-family: var(--font-rubik);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.user-menu__link {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main-navigation__item {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-dropdown__item {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-navigation__item {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-page {
+  background-color: var(--color-white);
+}
+
+.catalog-list__icon {
+  width: 160px;
+  height: 160px;
+  background-color: var(--color-yellow);
+}
+
+/* Components */
+/* Buttons */
+
+.primary-button {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.secondary-button {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.tertiarry-btn {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Pagination */
+
+.pagination {
+  background-color: var(--color-light-gray);
+}
+
+.pagination__numbers {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-dark-gray);
+}
+
+/* Input */
+
+.primary-input {
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-dark-gray);
+}
