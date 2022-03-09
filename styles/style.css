@@ -19,12 +19,25 @@
 
 body {
   margin: 0;
+  font-family: var(--font-rubik);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
   color: var(--color-black);
   background-color: var(--color-white);
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Typography */
@@ -53,18 +66,26 @@ body {
   font-display: swap;
 }
 
-h1 {
+.heading-primary {
   font-family: var(--font-raleway);
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
 }
 
-h2 {
+.heading-secondary {
   font-family: var(--font-raleway);
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
+}
+
+.heading-tertiary {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
 }
 
 .address-heading {
@@ -75,14 +96,6 @@ h2 {
   color: var(--color-dark-gray);
 }
 
-h3 {
-  font-family: var(--font-raleway);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: -0.02em;
-}
-
 .text-bold {
   font-family: var(--font-raleway);
   font-weight: 800;
@@ -91,11 +104,21 @@ h3 {
   letter-spacing: -0.02em;
 }
 
-p {
-  font-family: var(--font-rubik);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+.link {
+  color: var(--color-black);
+}
+
+.link-inverted {
+  color: var(--color-white);
+}
+
+.delivery-btn-text {
+  font-family: var(--font-raleway);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 /* Sections */
@@ -188,6 +211,7 @@ p {
   line-height: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: var(--color-black);
 }
 
 .secondary-button {
@@ -206,6 +230,7 @@ p {
   line-height: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  color: var(--color-black);
 }
 
 /* Breadcrumbs */
